@@ -86,9 +86,11 @@ The training environment includes an Employees dataset used for:
 
 ## Screenshots
 
-The following screenshots will be added to this repository:
-- pgAdmin configuration
-- Role creation
+### Database Role creation
+![Role Setup](screenshots/setting_user_role_and_connection_limit.jpg)
+
+### Table creation
+![employees table](screenshots/employee_sample_data.jpg)
 - Student database connection
 - SQL query execution
 
