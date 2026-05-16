@@ -1,0 +1,8 @@
+# Ignore the environment variables file
+.env
+
+# Ignore the Python virtual environment folder
+venv/
+
+# Ignore all files ending in .log
+*.log
