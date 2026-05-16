@@ -108,6 +108,15 @@ Through this project, I gained practical experience in:
 
 ---
 
+## Setup Instructions
+
+1. Install PostgreSQL
+2. Run the SQL files inside the setup folder
+3. Execute the dataset creation scripts
+4. Connect using pgAdmin 4 or PG Orbit
+
+---
+
 ## Project Timeline
 
 Started: 10 May 2026
