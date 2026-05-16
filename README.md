@@ -112,10 +112,13 @@ Through this project, I gained practical experience in:
 - Supporting beginner learners with real database systems.
 
 ---
+
 ## Project Timeline
 
 Started: 10 May 2026
+
 Status: Active
+
 ---
 
 ## Author
