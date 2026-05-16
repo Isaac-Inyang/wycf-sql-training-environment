@@ -28,7 +28,8 @@ The setup supports both desktop and mobile users through pgAdmin 4 and PG Orbit.
 - pgAdmin 4
 - PG Orbit
 - Tailscale
-- SQL
+- Tailscale
+- Sqliteonline
 
 ---
 
@@ -62,14 +63,6 @@ The training environment includes an Employees dataset used for:
 - Aggregations
 - GROUP BY analysis
 - Data exploration
-
-Dataset fields:
-
-- ID
-- Name
-- Department
-- Salary
-- JoinDate
 
 ---
 
