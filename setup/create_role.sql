@@ -1,3 +1,9 @@
+-- =========================================
+-- File: create_roles.sql
+-- Purpose: Configure student database roles
+-- Project: WYCF SQL Training Environment
+-- =========================================
+
 -- creating student role my_user
 CREATE ROLE my_user WITH LOGIN PASSWORD 'BITI2026';
 
