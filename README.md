@@ -28,7 +28,7 @@ The setup supports both desktop and mobile users through pgAdmin 4 and PG Orbit.
 - pgAdmin 4
 - PG Orbit
 - Tailscale
-- Tailscale
+- Dbeaver
 - Sqliteonline
 
 ---
@@ -56,13 +56,15 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public TO data_analyst;
 
 ## Dataset
 
-The training environment includes an Employees dataset used for:
+The training environment includes an Employees dataset, Microsoft's Wide World Importers (WWI) dataset used for:
 
 - SELECT statements
 - Filtering
 - Aggregations
 - GROUP BY analysis
 - Data exploration
+- Data cleaning
+- Data Visualization
 
 ---
 
@@ -113,7 +115,7 @@ Through this project, I gained practical experience in:
 1. Install PostgreSQL
 2. Run the SQL files inside the setup folder
 3. Execute the dataset creation scripts
-4. Connect using pgAdmin 4 or PG Orbit
+4. Connect using pgAdmin 4, Dbeaver or PG Orbit
 
 ---
 
