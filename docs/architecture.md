@@ -14,21 +14,24 @@ The environment allows multiple students to remotely connect to a shared Postgre
 |---|---|
 | PostgreSQL | Database management system |
 | pgAdmin 4 | Desktop database client |
+| Dbeaver | Desktop database client |
 | Sqliteonline | Online database client |
 | PG Orbit | Mobile database client |
 | Tailscale | Secure remote network access |
 | Employees Dataset | SQL beginner  practice dataset |
+| WWI dataset | Data Cleaning, Table Joins, Data Exploration |
 
 ---
 
 ## Connection Workflow
 
-1. Students install postgresql, pgadmin4, pgorbit or run sqliteonline.
+1. Students install postgresql, pgadmin4, pgorbit, dbeaver or run sqliteonline.
 2. Students connect to the private network using the same  Tailscale account different from the admin.
 3. Students log into the PostgreSQL server using assigned credentials.
 4. Students access the shared analyts database or create one if connection fails.
 5. Queries are executed against the employees table.
-6. Results are returned through pgAdmin 4 or PG Orbit or sqliteonline.
+6. Results are returned through pgAdmin 4, PG Orbit, sqliteonline or Dbeaver.
+7. Students with 32 bit laptops were provided old versions of postgresql provided in the setup.
 
 ---
 
