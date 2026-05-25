@@ -34,7 +34,7 @@ The environment allows multiple students to remotely connect to a shared Postgre
 7. Students with 32 bit laptops were provided old versions of postgresql provided in the setup.
 
 
-![Setup for 32bit PC](screenshots/setup for win32 laptops.jpg)
+![Setup for 32bit PC](screenshots/setup_for_win32_laptops.jpg)
 
 ---
 
