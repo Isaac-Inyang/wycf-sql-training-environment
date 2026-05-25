@@ -93,6 +93,13 @@ The training environment includes an Employees dataset, Microsoft's Wide World I
 
 ### Table creation
 ![employees table](screenshots/employee_sample_data.jpg)
+
+### WWI dataset ERD diagram
+![WWI dataset](screenshots/WWI_dataset_ERD_diagram.PNG)
+
+### Analyst database setup
+![Analyst Database](screenshots/analyst_database_setup.jpg)
+
 - Student database connection
 - SQL query execution
 
