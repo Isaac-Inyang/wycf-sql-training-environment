@@ -23,6 +23,7 @@ The challenge was to create a lightweight, beginner-friendly analytics environme
 
 ---
 
+## Solution Architecture
 
 
 ---
@@ -68,7 +69,7 @@ The infrastructure later transitioned fully into a PostgreSQL-based workflow des
 
 Current workflow:
 
-<img width="1024" height="572" alt="datapipeline_for_dashboard_and_visualization" src="https://github.com/user-attachments/assets/baaab52f-23da-4324-9ef8-00209d9bc5ba" />
+![Architecture work flow](images/datapipeline_for_dashboard_and_visualization.jpg)
 
 Learners now:
 - perform SQL analysis directly within PostgreSQL tools,
