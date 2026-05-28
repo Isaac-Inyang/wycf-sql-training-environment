@@ -23,10 +23,10 @@ The environment was designed for learners using mobile devices and older 32-bit 
 8. Supported environments:
   - PostgreSQL local restore
   - Remote PostgreSQL access via Tailscale
-9. 
-
-
-
+9. Device support:
+  - Mobile users (Android and Iphone)
+  - Low-spec PCs
+  - 32-bit systems
 
 ---
 
@@ -88,10 +88,10 @@ Learners now:
 
 This transition improved:
 
-scalability,
-relational data modeling support,
-analytics capabilities,
-and real-world BI workflow alignment.
+- scalability,
+- relational data modeling support,
+- analytics capabilities,
+- and real-world BI workflow alignment.
 
 
 ---
@@ -176,8 +176,9 @@ The training environment includes an Employees dataset, Microsoft's Wide World I
 - SQL Fundamentals
 - Filtering & Sorting
 - Aggregation Functions
-- GROUP BY
+- Data Manipulation
 - Data Cleaning
+- Data Visualization
 
 ---
 
@@ -241,10 +242,9 @@ This project improved my understanding of:
 ## Future Improvements
 
 - Add ETL workflow demonstrations
-- Add Power BI dashboard templates
 - Introduce query optimization lessons
-- Add Docker deployment
 - Expand analytics datasets
+- Assign analytical project to learners.
 
 ---
 
