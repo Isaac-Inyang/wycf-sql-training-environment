@@ -11,6 +11,25 @@ The environment was designed for learners using mobile devices and older 32-bit 
 
 ---
 
+## Project Metrics
+
+1. Training started: May 10, 2026
+2. Beginner learners supported: 20+
+3. Training format: Remote & physical sessions
+4. Database systems used: PostgreSQL
+5. SQL tools supported: pgAdmin 4, DBeaver, PG Orbit
+6. Visualization platform: Power BI
+7. Learning datasets used: Wide World Importers (WWI) and generated employees datasets
+8. Supported environments:
+  - PostgreSQL local restore
+  - Remote PostgreSQL access via Tailscale
+9. Device support:
+  - Mobile users (Android and Iphone)
+  - Low-spec PCs
+  - 32-bit systems
+
+---
+
 ## Problem Statement
 
 Many learners had:
@@ -25,20 +44,11 @@ The challenge was to create a lightweight, beginner-friendly analytics environme
 
 ## Solution Architecture
 
+![Architecture work flow](images/solution_architecture.jpg)
 
 ---
 
-##  Objectives
-
-- Teach beginner SQL and data analysis concepts
-- Simulate a real client-server database workflow
-- Provide secure multi-user database access
-- Support remote learning for mobile and desktop users
-- Introduce students to practical SQL querying
-
----
-
-## Evolution of the Learning Infrastructure
+## Workflow Evolution & Architectural Decisions
 
 The training environment evolved over multiple stages to accommodate varying learner capabilities, internet access, and hardware limitations.
 
@@ -78,22 +88,43 @@ Learners now:
 
 This transition improved:
 
-scalability,
-relational data modeling support,
-analytics capabilities,
-and real-world BI workflow alignment.
+- scalability,
+- relational data modeling support,
+- analytics capabilities,
+- and real-world BI workflow alignment.
 
 
 ---
 
-##  Technologies Used
+## Features
+
+- PostgreSQL-based SQL learning environment
+- Remote database access using Tailscale
+- Beginner-friendly SQL workflows
+- Power BI integration using direct SQL queries
+- Support for older 32-bit systems
+- Mobile-accessible learning support
+- Structured SQL practice datasets
+- Technical onboarding documentation
+
+---
+
+## Tech Stack
 
 - PostgreSQL
+- Power BI
 - pgAdmin 4
+- DBeaver
 - PG Orbit
 - Tailscale
-- Dbeaver
-- Sqliteonline
+- SQL
+---
+
+## Power BI Workflow
+
+Learners write and test analytical SQL queries using pgAdmin, DBeaver, or PG Orbit.
+The SQL queries are then pasted directly into Power BI through the PostgreSQL connector using the  SQL statement text box.
+This enables direct querying and visualization without creating temporary analytical tables.
 
 ---
 
@@ -145,8 +176,9 @@ The training environment includes an Employees dataset, Microsoft's Wide World I
 - SQL Fundamentals
 - Filtering & Sorting
 - Aggregation Functions
-- GROUP BY
+- Data Manipulation
 - Data Cleaning
+- Data Visualization
 
 ---
 
@@ -161,32 +193,58 @@ The training environment includes an Employees dataset, Microsoft's Wide World I
 ### WWI dataset ERD diagram
 ![WWI dataset](screenshots/WWI_dataset_ERD_diagram.PNG)
 
-### Analyst database setup
-![Analyst Database](screenshots/analyst_database_setup.jpg)
+### Remote PostgreSQL Connection
+![Pc Remote connection](screenshots/)
 
-- Student database connection
-- SQL query execution
+### Power BI connection
+
+### Power BI Dashboard
+
+### SQL query execution
+
+---
+
+## Engineering Challenges Solved
+
+- Supported learners with low-spec 32-bit computers
+- Reduced onboarding complexity for beginners
+- Enabled SQL learning through remote connectivity
+- Designed lightweight workflows for mobile-first learners
+- Simplified Power BI integration through direct SQL execution
 
 ---
 
 ## Lessons Learned
 
-Through this project, I gained practical experience in:
+This project improved my understanding of:
 - PostgreSQL user management
 - Role-based access control
-- Multi-user database environments
+- SQL workflow design
 - Remote database connectivity
-- Structuring datasets for SQL education
-- Supporting beginner learners with real database systems.
+- Power BI connectivity
+- Technical documentation
+- Accessibility-focused infrastructure design
+- Beginner onboarding strategies
+
 
 ---
 
 ## Setup Instructions
 
 1. Install PostgreSQL
-2. Run the SQL files inside the setup folder
-3. Execute the dataset creation scripts
-4. Connect using pgAdmin 4, Dbeaver or PG Orbit
+2. Install pgAdmin or DBeaver
+3. Connect using Tailscale or Restore sample database
+5. Run SQL queries
+6. Connect Power BI to PostgreSQL
+
+---
+
+## Future Improvements
+
+- Add ETL workflow demonstrations
+- Introduce query optimization lessons
+- Expand analytics datasets
+- Assign analytical project to learners.
 
 ---
 
