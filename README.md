@@ -21,12 +21,12 @@ The environment was designed for learners using mobile devices and older 32-bit 
 6. Visualization platform: Power BI
 7. Learning datasets used: Wide World Importers (WWI) and generated employees datasets
 8. Supported environments:
-  - PostgreSQL local restore
-  - Remote PostgreSQL access via Tailscale
+   PostgreSQL local restore,
+   Remote PostgreSQL access via Tailscale
 9. Device support:
-  - Mobile users (Android and Iphone)
-  - Low-spec PCs
-  - 32-bit systems
+   Mobile users (Android and Iphone),
+   Low-spec PCs,
+   32-bit systems
 
 ---
 
@@ -194,16 +194,16 @@ The training environment includes an Employees dataset, Microsoft's Wide World I
 ![WWI dataset](screenshots/WWI_dataset_ERD_diagram.PNG)
 
 ### Remote PostgreSQL Connection
-
+![remote pc connection](screenshots/Pc_RemotConnection_setup.png)
 
 ### Power BI connection
-
+![Power BI Database Connection](screenshots/Power_Bi_Database_Connection_Setup1.png)
 
 ### Power BI Dashboard
-
+![Power BI sample dashboard](screenshots/PowerBI_SampleDashboard_setup.png)
 
 ### SQL query execution
-
+![remote pc connection](screenshots/Pc_Remote_DataRetrieval.png)
 
 ---
 
