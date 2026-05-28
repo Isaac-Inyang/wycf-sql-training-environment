@@ -194,13 +194,16 @@ The training environment includes an Employees dataset, Microsoft's Wide World I
 ![WWI dataset](screenshots/WWI_dataset_ERD_diagram.PNG)
 
 ### Remote PostgreSQL Connection
-![Pc Remote connection](screenshots/)
+![Pc Remote connection](screenshots/Pc_RemotConnection_setup.PNG)
 
 ### Power BI connection
+![Power BI Database Connection](screenshots/Power_Bi_Database_Connection_Setup1.PNG)
 
 ### Power BI Dashboard
+![PowerBI Sample Dashboard](screenshots/PowerBI_SampleDashboard_setup.PNG)
 
 ### SQL query execution
+![Query Execution](screenshots/Pc_Remote_DataRetrieval.PNG)
 
 ---
 
