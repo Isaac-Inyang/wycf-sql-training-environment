@@ -25,16 +25,7 @@ The challenge was to create a lightweight, beginner-friendly analytics environme
 
 ## Solution Architecture
 
-
----
-
-##  Objectives
-
-- Teach beginner SQL and data analysis concepts
-- Simulate a real client-server database workflow
-- Provide secure multi-user database access
-- Support remote learning for mobile and desktop users
-- Introduce students to practical SQL querying
+![Architecture work flow](images/solution_architecture.jpg)
 
 ---
 
@@ -86,14 +77,35 @@ and real-world BI workflow alignment.
 
 ---
 
-##  Technologies Used
+## Features
+
+- PostgreSQL-based SQL learning environment
+- Remote database access using Tailscale
+- Beginner-friendly SQL workflows
+- Power BI integration using direct SQL queries
+- Support for older 32-bit systems
+- Mobile-accessible learning support
+- Structured SQL practice datasets
+- Technical onboarding documentation
+
+---
+
+## Tech Stack
 
 - PostgreSQL
+- Power BI
 - pgAdmin 4
+- DBeaver
 - PG Orbit
 - Tailscale
-- Dbeaver
-- Sqliteonline
+- SQL
+---
+
+## Power BI Workflow
+
+Learners write and test analytical SQL queries using pgAdmin, DBeaver, or PG Orbit.
+The SQL queries are then pasted directly into Power BI through the PostgreSQL connector using the  SQL statement text box.
+This enables direct querying and visualization without creating temporary analytical tables.
 
 ---
 
