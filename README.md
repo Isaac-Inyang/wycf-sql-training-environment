@@ -6,12 +6,24 @@ A PostgreSQL-based SQL training environment created for the WYCF( Winners Corper
 
 ##  Project Overview
 
-This project was created as part of a volunteer SQL training initiative designed to provide students with a hands-on SQL learning environment using PostgreSQL. Students connect remotely to a centralized database server through Tailscale and practice SQL queries using shared datasets.
-
-The setup supports both desktop and mobile users through pgAdmin 4 and PG Orbit.
 This project provides a lightweight PostgreSQL-based learning infrastructure for teaching SQL and Power BI data analytics workflows to beginner learners under low-resource conditions.
-
 The environment was designed for learners using mobile devices and older 32-bit computers, enabling accessible SQL practice, remote database connectivity, and Power BI visualization workflows.
+
+---
+
+## Problem Statement
+
+Many learners had:
+- mobile phones instead of laptops,
+- low-spec or 32-bit computers,
+- limited technical experience,
+- and unreliable access to modern software tools.
+
+The challenge was to create a lightweight, beginner-friendly analytics environment that could run under these constraints while still providing real-world SQL and BI workflows.
+
+---
+
+
 
 ---
 
