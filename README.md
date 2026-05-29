@@ -26,7 +26,8 @@ The environment was designed for learners using mobile devices and older 32-bit 
 9. Device support:
    Mobile users (Android and Iphone),
    Low-spec PCs,
-   32-bit systems
+   32-bit systems,
+   64 bit systems
 
 ---
 
