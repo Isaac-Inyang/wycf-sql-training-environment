@@ -1,1 +1,34 @@
+version: '3.8'
 
+services:
+  db:
+    image: postgres:15
+    container_name: sql_training_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: your_secure_password
+      POSTGRES_DB: training_db
+    ports:
+      # IMPORTANT: If you are using Tailscale for remote access, replace '127.0.0.1' 
+      # with your host machine's Tailscale IP address (e.g., 100.x.x.x:5432:5432)
+      # Leaving it as 127.0.0.1 restricts access to the local machine only.
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./setup:/docker-entrypoint-initdb.d
+    restart: unless-stopped
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: sql_training_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@training.org
+      PGADMIN_DEFAULT_PASSWORD: admin_password
+    ports:
+      - "5050:80"
+    depends_on:
+      - db
+    restart: unless-stopped
+
+volumes:
+  pgdata:
